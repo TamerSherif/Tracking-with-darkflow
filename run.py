@@ -6,6 +6,7 @@ from darkflow.darkflow.net.build import TFNet
 FLAGS = argHandler()
 FLAGS.setDefaults()
 
+#params
 FLAGS.demo = "camera" # video file to use, or if camera just put "camera"
 FLAGS.model = "darkflow/cfg/yolo.cfg" # tensorflow model
 FLAGS.load = "darkflow/bin/yolo.weights" # tensorflow weights
